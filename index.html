@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>School Budget Calculator</h1>
+    <p class="subtitle">Tracking how much you spend</p>
+
+    <div class="form_group">
+      <label for="tmoney">Your Budget</label>
+      <input type="number" id="tmoney" placeholder="Enter your total amount" class="Bj" min="100" required>
+    </div>
+    <label class="la">Select quantities of items you want to Buy</label>
+    <div class="List" id="list"></div>
+
+
+    <button class="calc" id="calculate">Calculate Total amount</button>
+
+    <div class="result" id="rcontainer">
+      <p class="resultTitle" id="resultT"></p>
+      <p class="resultMeta" id="Totalspending"></p>
+      <p class="resultMeta" id="Balancecheck"></p>
+      <div class ="percentage">
+    <p id="test" class = "percent"></p>
+  </div>
+      <div class="receipt" id="receipts"></div>
+    </div>
+  </div>
+  <p id='a'></p>
+  <script type= "module"src = "/script.js">
+  </script>
+</body>
+</html>
