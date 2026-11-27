@@ -1,5 +1,5 @@
-import {doomsday, parseQuantity, calculate, NGN} from "./js/logic.js"
-import items from "./js/data.js"
+import {doomsday, parseQuantity, calculate, NGN} from "./logic.js"
+import items from "./data.js"
 const stuff = doomsday(items)
 
 
